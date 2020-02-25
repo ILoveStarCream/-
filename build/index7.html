@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>7Catalog</title>
+
+
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="header">
+    <section class="header-top">
+        <div class="container header-top-container">
+            <div class="header-city">
+                <img src="img/svg/Vector.svg" class="header-city__img">Москва
+            </div>
+            <div class="header-number">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g>
+                        <g>
+                            <path class="tel-img" fill="#232323"
+                                d="M0 1.263C0 .567.567 0 1.263 0h2.948c.696 0 1.263.567 1.263 1.263a9.156 9.156 0 0 0 .458 2.875c.148.47.023.96-.324 1.282L4.406 6.63a12.34 12.34 0 0 0 4.956 4.954l1.212-1.213a1.282 1.282 0 0 1 1.283-.305c.926.305 1.895.46 2.88.46.696 0 1.263.567 1.263 1.263v2.948c0 .696-.567 1.263-1.263 1.263C6.61 16 0 9.39 0 1.263zm1.263-.42a.421.421 0 0 0-.42.42c0 7.662 6.232 13.895 13.894 13.895.231 0 .42-.19.42-.421V11.79a.422.422 0 0 0-.42-.422 9.966 9.966 0 0 1-3.139-.501.435.435 0 0 0-.434.106l-1.641 1.642c-2.731-1.39-4.768-3.427-6.146-6.145l1.647-1.656a.398.398 0 0 0 .107-.418 9.973 9.973 0 0 1-.5-3.133.421.421 0 0 0-.42-.42z" />
+                        </g>
+                    </g>
+                </svg>
+                <a href="tel:+7 789 789 78 89" class="header-number_phone header-number_firstphone">+7 789 789 78 89
+                </a>|
+                <a href="tel:+7 789 789 78 89" class="header-number_phone header-number_secondphone"> +7 789 789 78
+                    89</a>
+            </div>
+        </div>
+    </section>
+    <section class="header-main">
+        <div class="container">
+            <div class="header-main-wrapper">
+                <a href="#" class="header-logo">
+                    <img src="img/svg/logo.svg" alt="Logo" class="header-logo__img">
+                </a>
+                <div class="header-search">
+                    <input type="text" class="header-search__input" placeholder="Введите название, артикул, vin">
+                    <input type="button" class="header-search__button" value="Найти">
+                    <img src="img/svg/search.svg" alt="search" class="header-search__icon">
+                    <div class="block__input">
+                        <ul class="header-search-column">
+                            <li class="header-search-column__item">1123 в Кабины, сиденья и крышки капотов</li>
+                            <li class="header-search-column__item">1123 в Тормоза и тросики</li>
+                            <li class="header-search-column__item">1123 в Ходовая и рулевая системы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-user">
+
+                    <a href="#user-modal" class="header-user__in popup-modal-user"> <img src="img/svg/user.svg"
+                            alt="foto" class="header-user__foto">Вход | Регистрация </a>
+                    <!-- <a href="#test-modal" class="header-user__registration popup-modal-form"></a> -->
+                </div>
+                <div class="header-product">
+                    <a href="" class="header-product__like">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12">
+                            <g>
+                                <g>
+                                    <path class="like-img" fill="#737373"
+                                        d="M14 3.857c0 1.506-.842 3.106-2.502 4.755-1.386 1.377-3.083 2.524-4.263 3.245L7 12l-.235-.143c-1.18-.72-2.877-1.868-4.263-3.245C.842 6.962 0 5.363 0 3.857 0 1.73 1.83 0 4.081 0a4.23 4.23 0 0 1 1.855.42c.393.19.754.442 1.064.742.31-.3.671-.552 1.064-.742A4.23 4.23 0 0 1 9.92 0C12.169 0 14 1.73 14 3.857zm-.866 0c0-1.676-1.442-3.039-3.215-3.039-1.021 0-1.959.443-2.573 1.216L7 2.469l-.346-.435C6.04 1.26 5.102.818 4.08.818 2.308.818.866 2.181.866 3.857c0 1.289.761 2.699 2.263 4.19C4.37 9.279 5.877 10.325 7 11.025c1.123-.7 2.632-1.746 3.87-2.976 1.503-1.492 2.264-2.902 2.264-4.191z" />
+                                </g>
+                            </g>
+                        </svg></a>
+                    <a href="" class="header-product__rating">
+                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="rating-img" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 0H12V12H14V0ZM2 1H0V12H2V1ZM6 2H4V12H6V2ZM8 4H10V12H8V4Z" fill="#737373" />
+                        </svg></a>
+                    <div class="header-basket-wrapper">
+                        <a href="" class="header-basket__lick">
+                            <img src="img/svg/basket1.svg" alt="basket" class="header-basket__img">
+                            <span class="header-basket__number">3</span>
+                        </a>
+                        Нет товаров
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="header-footer">
+        <div class="container">
+            <div class="header-footer-wrapper">
+                <div class="open-menu">
+                    <ul class="hide-nav">
+                        <li class="hide-nav__line hide-nav__line--top"></li>
+                        <li class="hide-nav__line hide-nav__line--middle"></li>
+                        <li class="hide-nav__line hide-nav__line--bottom"></li>
+                    </ul>
+                    <span class="open-menu-text">Весь каталог</span>
+                </div>
+                <div class="header-menu">
+                    <div class="header-menu-mobile">
+                        <ul class="hide-menu">
+                            <li class="hide-menu__line hide-menu__line--top"></li>
+                            <li class="hide-menu__line hide-menu__line--middle"></li>
+                            <li class="hide-menu__line hide-menu__line--bottom"></li>
+                        </ul>
+                        <span class="open-menu-text open-submenu-text ">Меню</span>
+                    </div>
+                    <div class="header-column-wrapper">
+                        <ul class="header-column">
+                            <li class="header-column-item"><a href="#" class="header-column-link"> О компании </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Сервисы </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Новости</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link"> Статьи</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Медиа</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Вопрос ответ </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Бренды </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="header-stock__link">Акции</a>
+            </div>
+        </div>
+    </section>
+</div>
+    <div class="container">
+    <ul class="hide-column">
+        <li class="hide-column-item menu__list ">
+            <a href="#" class="hide-column__link hide-column__activelink">Запчасти для погрузчиков
+            </a>
+            <ul class="hide-catalog-column menu__drop menu__drop-active ">
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog1.svg"
+                            class="hide-catalog__img">Ходовая и рулевая системы</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog2.svg"
+                            class="hide-catalog__img">Тормоза и тросики</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog3.svg"
+                            class="hide-catalog__img">Шины, колеса и рулевые колесики</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog4.svg"
+                            class="hide-catalog__img">Вилы мачты и навесное оборудование</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog5.svg"
+                            class="hide-catalog__img">Кабины, сиденья и крышки капотов</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog6.svg"
+                            class="hide-catalog__img">Оборудование для складской обработки</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog7.svg"
+                            class="hide-catalog__img">Запчасти к подметальным и скребковым машинам</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog8.svg"
+                            class="hide-catalog__img">Материалы для ТО, сервиса и охраны труда</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog9.svg"
+                            class="hide-catalog__img">Электрооборудование</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog10.svg"
+                            class="hide-catalog__img">Гидравлика</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog1.svg"
+                            class="hide-catalog__img">Стартеры, системы зажигания и топливная</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog12.svg"
+                            class="hide-catalog__img">Двигатель, фильтры, системы охлаждения и выхлопная </a></li>
+            </ul>
+        </li>
+        <li class="hide-column-item menu__list">
+            <a href="#" class="hide-column__link">Складское оборудование</a>
+        </li>
+    </ul>
+</div>
+    <div class="container">
+        <div class="twopage-about-company-title four-catalog-title seven-catalog-title">
+            <a href="" class="twopage-about-company__link">Главная</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Каталог</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Запчасти для погрузчиков</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Кабины, сиденья и крышки капотов</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Металлическая кабина для погрузчика AX/BX50</a>
+        </div>
+    </div>
+
+    <section class="slider-three">
+        <div class="container">
+            <section class="seven-catalog">
+    <div class="container">
+        <h6 class=" choose-us-title five-page-popular-product seven-title">Металлическая кабина для погрузчика AX/BX50</h6>
+        <div class="seven-catalog-card">
+            <div class="seven-card-column first-seven-card-column">
+                <div id="sync1" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img sub-owl-theme__img">
+                    </div>
+                    <div class="item">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img sub-owl-theme__img">
+                    </div>
+                    <div class="item">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img sub-owl-theme__img">
+                    </div>
+                    <div class="item">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img sub-owl-theme__img">
+                    </div>
+                </div>
+                <div id="sync2" class="owl-carousel owl-theme">
+                    <div class="item item-sync">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img">
+                    </div>
+                    <div class="item item-sync">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img">
+                    </div>
+                    <div class="item item-sync">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img">
+                    </div>
+                    <div class="item item-sync">
+                        <img src="./img/svg/sevencatalog.svg" alt="" class="owl-theme__img">
+                    </div>
+                </div>
+            </div>
+            <div class="seven-card-column second-seven-card-column">
+                <div class="rating">
+                    <div class="rating-item active" data-rate="1"></div>
+                    <div class="rating-item" data-rate="2"></div>
+                    <div class="rating-item" data-rate="3"></div>
+                    <div class="rating-item" data-rate="4"></div>
+                    <div class="rating-item" data-rate="5"></div>
+                    <div class="rating-item-reviews">3.0 (10 отзывов)</div>
+                </div>
+                <span class="seven-card-column__title">Характеристики</span>
+                <div class="seven-specifications-wrapper">
+                    <ul class="seven-specifications-left-column">
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Производитель:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модель техники:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Серия:</span>
+                            <span class="seven-specifications-left-span seven-specifications-left-longspan"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Производитель: </span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модель техники:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Серия:</span>
+                            <span class="seven-specifications-left-span seven-specifications-left-longspan"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Производитель: </span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модель техники:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Серия:</span>
+                            <span class="seven-specifications-left-span seven-specifications-left-longspan"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Производитель: </span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модель техники:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Серия:</span>
+                            <span class="seven-specifications-left-span seven-specifications-left-longspan"></span>
+                        </li>
+                        <li class="seven-specifications-left-item">
+                            <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                            <span class="seven-specifications-left-span"></span>
+                        </li>
+                    </ul>
+                    <ul class="seven-specifications-righ-column">
+                        <li class="seven-specifications-right-item">Doosan Big Black Boots Cats</li>
+                        <li class="seven-specifications-right-item">D30NX</li>
+                        <li class="seven-specifications-right-item">серия NX® 78943-453-43-22</li>
+                        <li class="seven-specifications-right-item">NX</li>
+                        <li class="seven-specifications-right-item">Doosan</li>
+                        <li class="seven-specifications-right-item">D30NX</li>
+                        <li class="seven-specifications-right-item">серия NX®</li>
+                        <li class="seven-specifications-right-item">NX</li>
+                        <li class="seven-specifications-right-item">Doosan</li>
+                        <li class="seven-specifications-right-item">D30NX</li>
+                        <li class="seven-specifications-right-item">серия NX®</li>
+                        <li class="seven-specifications-right-item">NX</li>
+                        <li class="seven-specifications-right-item">Doosan</li>
+                        <li class="seven-specifications-right-item">D30NX</li>
+                        <li class="seven-specifications-right-item">серия NX®</li>
+                        <li class="seven-specifications-right-item">NX</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="seven-card-column three-seven-card-column">
+                <div class="seven-wrapper-comparison">
+                    <a href="" class="header-product__like">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12">
+                            <g>
+                                <g>
+                                    <path class="like-img" fill="#737373"
+                                        d="M14 3.857c0 1.506-.842 3.106-2.502 4.755-1.386 1.377-3.083 2.524-4.263 3.245L7 12l-.235-.143c-1.18-.72-2.877-1.868-4.263-3.245C.842 6.962 0 5.363 0 3.857 0 1.73 1.83 0 4.081 0a4.23 4.23 0 0 1 1.855.42c.393.19.754.442 1.064.742.31-.3.671-.552 1.064-.742A4.23 4.23 0 0 1 9.92 0C12.169 0 14 1.73 14 3.857zm-.866 0c0-1.676-1.442-3.039-3.215-3.039-1.021 0-1.959.443-2.573 1.216L7 2.469l-.346-.435C6.04 1.26 5.102.818 4.08.818 2.308.818.866 2.181.866 3.857c0 1.289.761 2.699 2.263 4.19C4.37 9.279 5.877 10.325 7 11.025c1.123-.7 2.632-1.746 3.87-2.976 1.503-1.492 2.264-2.902 2.264-4.191z" />
+                                </g>
+                            </g>
+                        </svg><span class="three-seven-card-text">В избранное</span> </a>
+                    <a href="" class="header-product__rating">
+                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="rating-img" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 0H12V12H14V0ZM2 1H0V12H2V1ZM6 2H4V12H6V2ZM8 4H10V12H8V4Z" fill="#737373" />
+                        </svg><span class="three-seven-card-text">Сравнить</span></a>
+                </div>
+                <div class="seven-catalog-basket">
+                    <span class="seven-catalog-basket-delivery">Срок поставки 0-3 дн.</span>
+                    <span class="catalog-basket-price-wrapper">
+                        <span class="catalog-basket-text">Цена:</span>
+                        <span class="catalog-basket-price">3 432 432 р.</span>
+                    </span>
+                    <button class="catalog-basket-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path fill="#737373" class="basket"
+                                            d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                                    </g>
+                                    <g>
+                                        <path fill="#737373" class="basket"
+                                            d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        </svg>
+                        Добавить в корзину
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="seven-catalog-tabs">
+            <div class="tabs">
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active" data-tab-name="tab-1">Характеристики</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-2">Описание</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-3">Доставка</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-4">Оплата</div>
+                </div>
+                <div class="tabs__content">
+                    <div class="tab is-active tab-1 ">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-content-left">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content-right">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-2">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-content-left">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content-right">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-3">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-content-left">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content-right">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-4">
+                        <div class="tab-content-wrapper">
+                            <div class="tab-content-left">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content-right">
+                                <ul class="seven-specifications-left-column tab-content-column">
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Производитель:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модель техники:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Серия:</span>
+                                        <span
+                                            class="seven-specifications-left-span seven-specifications-left-longspan tab-left-subspan"></span>
+                                    </li>
+                                    <li class="seven-specifications-left-item">
+                                        <span class="seven-specifications-left-subspan">Модельный ряд:</span>
+                                        <span class="seven-specifications-left-span tab-left-span"></span>
+                                    </li>
+                                </ul>
+                                <ul class="seven-specifications-righ-column">
+                                    <li class="seven-specifications-right-item">Doosan </li>
+                                    <li class="seven-specifications-right-item">D30NX</li>
+                                    <li class="seven-specifications-right-item">серия NX® </li>
+                                    <li class="seven-specifications-right-item">NX</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+            <section class="about-us">
+    <div class="container">
+        <div class="about-us-wrapper">
+            <div class="about-us-item">
+                <img src="img/svg/aboutus1.svg" alt="table" class="about-us__icon">
+                <span class="about-us__text">Работаем 8 лет <br>
+                    с продажей запчастей</span>
+            </div>
+            <div class="about-us-item">
+                <img src="img/svg/aboutus2.svg" alt="table" class="about-us__icon">
+                <span class="about-us__text">Гарантия <br>
+                    низкой цены
+                </span>
+            </div>
+            <div class="about-us-item">
+                <img src="img/svg/aboutus3.svg" alt="table" class="about-us__icon">
+                <span class="about-us__text">Доставка по России,<br>
+                    Белоруссии, Казахстану
+                </span>
+            </div>
+            <div class="about-us-item">
+                <img src="img/svg/aboutus4.svg" alt="table" class="about-us__icon">
+                <span class="about-us__text">Гарантия на запчасти<br>
+                    12 месяцев
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+            <div class="three-slider">
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+    <div class="three-slider-item">
+        <div class="bestseller-card">
+            <div class="bestseller-wrap-img">
+                <img src="img/jpeg/slide21.jpg" alt="card" class="bestseller-img">
+            </div>
+            <h6 class="bestseller-card-title">Металлическая кабина<br>
+                для погрузчика AX/BX50</h6>
+
+            <div class="bestseller-line"></div>
+            <ul class="bestseller-column">
+                <li class="bestseller-column__item">Производитель:
+                    <span class="bestseller-column__text"> Doosan</span></li>
+                <li class="bestseller-column__item">Модель техники:
+                    <span class="bestseller-column__text"> D30NX</span></li>
+                <li class="bestseller-column__item">Серия:
+                    <span class="bestseller-column__text"> серия NX®</span></li>
+                <li class="bestseller-column__item">Модельный ряд:
+                    <span class="bestseller-column__text"> NX</span></li>
+            </ul>
+            <span class="bestseller-price">3 432 432 р.</span>
+            <a class="bestseller-basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                        <g>
+                            <g>
+                                <path class="Bestseller-basket-icon" fill="#737373"
+                                    d="M18.591 21.328a2.737 2.737 0 1 0 3.87 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.936 1.935 1.369 1.369 0 0 1 1.936-1.936zm-15.219-.968a2.737 2.737 0 1 0 3.871 3.87 2.737 2.737 0 0 0-3.87-3.87zm2.903.968a1.369 1.369 0 1 1-1.935 1.935 1.369 1.369 0 0 1 1.935-1.936zm14.085-18.19a1.368 1.368 0 0 1 1.096 2.186l-4.106 5.474a1.361 1.361 0 0 1-1.095.55H7.964L4.48 4.106zm-4.105 9.578a2.734 2.734 0 0 0 2.243-1.168l3.988-5.318a2.737 2.737 0 0 0-2.126-4.461H3.9L2.737 0H0v1.368h1.831l4.97 11.709-.985 2.017a2.737 2.737 0 0 0 2.395 4.064h15.052V17.79H8.211a1.369 1.369 0 0 1-1.369-1.369l.137-.602 1.048-2.135z" />
+                            </g>
+                            <g>
+                                <path fill="#737373" class="Bestseller-basket-icon"
+                                    d="M11.81 8.676v-.995h2.583V5.08h1.013v2.6h2.583v.996h-2.583v2.595h-1.013V8.676z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+        </div>
+    </div>
+
+</div>
+            
+        </div>
+    </section>
+    <footer class="footer">
+    <section class="footer-top">
+        <div class="container">
+            <div class="footer-top-body">
+                <div class="footer-top-text">
+                    <span class="footer-top-subtitle">Возникли вопросы?</span>
+                    <h2 class="footer-top-title">Оставьте заявку</h2>
+                    <span class="footer-top-info">Мы свяжемся с Вами в ближайшее время и ответим на любые<br>
+                        интересующие Вас вопросы </span>
+                </div>
+                <form class="footer-top-form">
+                    <input type="text" class="footer-top-input footer-name-input " placeholder="Ваше имя:">
+                    <input type="text" class="footer-top-input footer-tel-input" placeholder="Ваш телефон:">
+                    <input type="submit" class="footer-submit-input" value="отправить">
+                </form>
+            </div>
+        </div>
+        <span class="footer-logo-text">Техно Простор</span>
+    </section>
+    <section class="footer-main">
+        <div class="container">
+            <div class="footer-main-body">
+                <div class="footer-wrap-maincolumn">
+                    <div class="footer-wrap-item">
+                        <h2 class="footer-wrap-title">Клиентам</h2>
+                        <div class="footer-wrap-line">
+                            <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                        </div>
+                        <ul class="footer-main-column">
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Как найти деталь</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Как сделать заказ</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Оплата</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Доставка</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гарантия и возврат</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap-item">
+                        <h2 class="footer-wrap-title">Информация</h2>
+                        <div class="footer-wrap-line">
+                            <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                        </div>
+                        <ul class="footer-main-column">
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-О компании</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Реквизиты</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Контакты</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Вакансии</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Новости</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Видео о компании</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap-item footer-wrap-subitem">
+                        <ul class="footer-main-column">
+                            <h2 class="footer-wrap-title">Каталог товаров</h2>
+                            <div class="footer-wrap-line footer-wrap-bigline">
+                                <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                            </div>
+
+
+                            <li class="footer-main-item footer-main-subitem"><a href="#" class="footer-main-link ">-
+                                    Карты ТО</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Детали двигателей</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ходовая часть</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Указатели и датчики</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Шины и диски</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Масла и СМ</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гидравлические
+                                    цилиндры</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Грузовые рампы</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Hаземные защитные
+                                    настилы и опоры для аутригеров</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ручной разбрасыватель
+                                    соли</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Подметальные навесные
+                                    приспособления</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Защита склада</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Прочее складское и
+                                    ремонтное оборудование</a></li>
+                        </ul>
+                        <ul class="footer-main-column footer-main-subcolumn">
+                            <div class="footer-wrap-line  footer-wrap-bigline"></div>
+                            <li class="footer-main-item footer-main-subitem"><a href="#" class="footer-main-link">-
+                                    Карты ТО</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Детали двигателей</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ходовая часть</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Указатели и датчики</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Шины и диски</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Масла и СМ</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гидравлические
+                                    цилиндры</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Грузовые рампы</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Hаземные защитные
+                                    настилы и опоры для аутригеров</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ручной разбрасыватель
+                                    соли</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Подметальные навесные
+                                    приспособления</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Защита склада</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Прочее складское и
+                                    ремонтное оборудование</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="data-wrapper">
+                <div class="footer-wrap-paymants">
+                    <h3 class="footer-paymants-title">Мы принимаем:</h3>
+                    <div class="footer-paymants">
+                        <img src="img/svg/paymants.svg" alt="paymats" class="footer-paymants-img">
+                    </div>
+                </div>
+                <div class="footer-wrap-social-cell">
+                    <h3 class="footer-paymants-title">Мы в социальных сетях:</h3>
+                    <div class=" footer-social-cell">
+                        <a href="telegram.com" class="footer-paymants-link"><img src="img/svg/soc1.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                        <a href="https://twitter.com/?lang=rus" class="footer-paymants-link"><img src="img/svg/soc2.svg"
+                                alt="telegram" class="footer-social-img"></a>
+                        <a href="https://www.instagram.com/?hl=rus" class="footer-paymants-link"><img
+                                src="img/svg/soc3.svg" alt="telegram" class="footer-social-img"></a>
+                        <a href="fb.com" class="footer-paymants-link"><img src="img/svg/soc4.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                        <a href="vk.com" class="footer-paymants-link"><img src="img/svg/soc5.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-button">
+        <div class="container">
+            <div class="footer-button-wrap">
+                <span class="footer-button-data">© «NameSite», 2019</span>
+                <a class="footer-button-info">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </section>
+</footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var rating = document.querySelector('.rating'),
+            ratingItem = document.querySelectorAll('.rating-item');
+
+        rating.onclick = function (e) {
+            var target = e.target;
+            if (target.classList.contains('rating-item')) {
+                removeClass(ratingItem, 'current-active')
+                target.classList.add('active', 'current-active');
+            }
+        }
+
+        rating.onmouseover = function (e) {
+            var target = e.target;
+            if (target.classList.contains('rating-item')) {
+                removeClass(ratingItem, 'active')
+                target.classList.add('active');
+                mouseOverActiveClass(ratingItem)
+            }
+        }
+        rating.onmouseout = function () {
+            addClass(ratingItem, 'active');
+            mouseOutActiveClas(ratingItem);
+        }
+
+        function removeClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                for (var j = 1; j < arguments.length; j++) {
+                    ratingItem[i].classList.remove(arguments[j]);
+                }
+            }
+        }
+        function addClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                for (var j = 1; j < arguments.length; j++) {
+                    ratingItem[i].classList.add(arguments[j]);
+                }
+            }
+        }
+
+        function mouseOverActiveClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                if (arr[i].classList.contains('active')) {
+                    break;
+                } else {
+                    arr[i].classList.add('active');
+                }
+            }
+        }
+
+        function mouseOutActiveClas(arr) {
+            for (var i = arr.length - 1; i >= 1; i--) {
+                if (arr[i].classList.contains('current-active')) {
+                    break;
+                } else {
+                    arr[i].classList.remove('active');
+                }
+            }
+        }</script>
+    <script>
+        $(document).ready(function () {
+
+            var sync1 = $("#sync1");
+            var sync2 = $("#sync2");
+            var slidesPerPage = 3; //globaly define number of elements per page
+            var syncedSecondary = true;
+
+            sync1.owlCarousel({
+                items: 1,
+                slideSpeed: 2000,
+                nav: true,
+                autoplay: false,
+                dots: true,
+                loop: true,
+                responsiveRefreshRate: 200,
+                navText: ['<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g><g><path fill="#a7a7a7" class="arrow7page" d="M24.031 2.14A15.8 15.8 0 0 1 29.86 7.97C31.286 10.427 32 13.104 32 16c0 2.896-.714 5.573-2.14 8.031a15.8 15.8 0 0 1-5.829 5.828C21.573 31.286 18.896 32 16 32c-2.896 0-5.573-.714-8.031-2.14A15.8 15.8 0 0 1 2.14 24.03C.714 21.573 0 18.896 0 16c0-2.896.714-5.573 2.14-8.031A15.8 15.8 0 0 1 7.97 2.14C10.427.714 13.104 0 16 0c2.896 0 5.573.714 8.031 2.14zm-2.593 26.782c1.729-.74 3.218-1.74 4.468-3s2.245-2.755 2.985-4.484C29.63 19.707 30 17.895 30 16s-.37-3.708-1.11-5.438c-.739-1.729-1.734-3.218-2.984-4.468s-2.74-2.245-4.469-2.985A13.686 13.686 0 0 0 16 2c-1.896 0-3.708.37-5.438 1.11-1.729.739-3.218 1.734-4.468 2.984s-2.245 2.74-2.985 4.468A13.686 13.686 0 0 0 2 16c0 1.52.234 2.995.703 4.422a13.186 13.186 0 0 0 2 3.86 15.682 15.682 0 0 0 3.016 3.03 12.977 12.977 0 0 0 3.86 2.016c1.426.469 2.9.703 4.421.703 1.896 0 3.708-.37 5.438-1.11zM23 15c.292 0 .531.094.719.281a.955.955 0 0 1 .281.703c0 .282-.094.521-.281.72A.947.947 0 0 1 23 17H11.687l3.688 3.656c.083.104.151.219.203.344.052.125.078.25.078.375s-.026.25-.078.375c-.052.125-.12.24-.203.344a1.043 1.043 0 0 1-.906.265 1.237 1.237 0 0 1-.188-.047.555.555 0 0 1-.172-.093 2.429 2.429 0 0 0-.171-.125L8.03 16.03l5.906-6.062a.988.988 0 0 1 .72-.313c.27 0 .505.1.702.297a.979.979 0 0 1 .297.719.954.954 0 0 1-.281.703L11.75 15z"/></g></g></svg>'],
+            }).on('changed.owl.carousel', syncPosition);
+
+            sync2
+                .on('initialized.owl.carousel', function () {
+                    sync2.find(".owl-item").eq(0).addClass("current");
+                })
+                .owlCarousel({
+                    items: slidesPerPage,
+                    dots: true,
+                    nav: true,
+                    smartSpeed: 200,
+                    slideSpeed: 500,
+                    slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+                    responsiveRefreshRate: 100
+                }).on('changed.owl.carousel', syncPosition2);
+
+            function syncPosition(el) {
+                //if you set loop to false, you have to restore this next line
+                //var current = el.item.index;
+
+                //if you disable loop you have to comment this block
+                var count = el.item.count - 1;
+                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+                if (current < 0) {
+                    current = count;
+                }
+                if (current > count) {
+                    current = 0;
+                }
+
+                //end block
+
+                sync2
+                    .find(".owl-item")
+                    .removeClass("current")
+                    .eq(current)
+                    .addClass("current");
+                var onscreen = sync2.find('.owl-item.active').length - 1;
+                var start = sync2.find('.owl-item.active').first().index();
+                var end = sync2.find('.owl-item.active').last().index();
+
+                if (current > end) {
+                    sync2.data('owl.carousel').to(current, 100, true);
+                }
+                if (current < start) {
+                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
+                }
+            }
+
+            function syncPosition2(el) {
+                if (syncedSecondary) {
+                    var number = el.item.index;
+                    sync1.data('owl.carousel').to(number, 100, true);
+                }
+            }
+
+            sync2.on("click", ".owl-item", function (e) {
+                e.preventDefault();
+                var number = $(this).index();
+                sync1.data('owl.carousel').to(number, 300, true);
+            });
+        });
+    </script>
+      <script>
+        let tab = function () {
+            let tabNav = document.querySelectorAll('.tabs-nav__item'),
+                tabContent = document.querySelectorAll('.tab'),
+                tabName;
+        
+            tabNav.forEach(item => {
+                item.addEventListener('click', selectTabNav)
+            });
+        
+            function selectTabNav() {
+                tabNav.forEach(item => {
+                    item.classList.remove('is-active');
+                });
+                this.classList.add('is-active');
+                tabName = this.getAttribute('data-tab-name');
+                selectTabContent(tabName);
+            }
+        
+            function selectTabContent(tabName) {
+                tabContent.forEach(item => {
+                    item.classList.contains(tabName) ? item.classList.add('is-active') :
+                     item.classList.remove('is-active');
+                })
+            }
+        };
+        tab();
+        
+            </script>
+</body>
+
+</html>

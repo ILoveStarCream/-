@@ -1,0 +1,35 @@
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flexend {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexcolumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin border {
+    border: 1px solid #e9e9e9;
+}
+
+@mixin boldtext {
+    font-family: "Roboto-Bold";
+    font-weight: bold;
+}
+@mixin title {
+    color: #232323;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 19px;
+}

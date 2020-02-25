@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11catalog</title>
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/nouislider.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+<body>
+
+    <div class="header">
+    <section class="header-top">
+        <div class="container header-top-container">
+            <div class="header-city">
+                <img src="img/svg/Vector.svg" class="header-city__img">Москва
+            </div>
+            <div class="header-number">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g>
+                        <g>
+                            <path class="tel-img" fill="#232323"
+                                d="M0 1.263C0 .567.567 0 1.263 0h2.948c.696 0 1.263.567 1.263 1.263a9.156 9.156 0 0 0 .458 2.875c.148.47.023.96-.324 1.282L4.406 6.63a12.34 12.34 0 0 0 4.956 4.954l1.212-1.213a1.282 1.282 0 0 1 1.283-.305c.926.305 1.895.46 2.88.46.696 0 1.263.567 1.263 1.263v2.948c0 .696-.567 1.263-1.263 1.263C6.61 16 0 9.39 0 1.263zm1.263-.42a.421.421 0 0 0-.42.42c0 7.662 6.232 13.895 13.894 13.895.231 0 .42-.19.42-.421V11.79a.422.422 0 0 0-.42-.422 9.966 9.966 0 0 1-3.139-.501.435.435 0 0 0-.434.106l-1.641 1.642c-2.731-1.39-4.768-3.427-6.146-6.145l1.647-1.656a.398.398 0 0 0 .107-.418 9.973 9.973 0 0 1-.5-3.133.421.421 0 0 0-.42-.42z" />
+                        </g>
+                    </g>
+                </svg>
+                <a href="tel:+7 789 789 78 89" class="header-number_phone header-number_firstphone">+7 789 789 78 89
+                </a>|
+                <a href="tel:+7 789 789 78 89" class="header-number_phone header-number_secondphone"> +7 789 789 78
+                    89</a>
+            </div>
+        </div>
+    </section>
+    <section class="header-main">
+        <div class="container">
+            <div class="header-main-wrapper">
+                <a href="#" class="header-logo">
+                    <img src="img/svg/logo.svg" alt="Logo" class="header-logo__img">
+                </a>
+                <div class="header-search">
+                    <input type="text" class="header-search__input" placeholder="Введите название, артикул, vin">
+                    <input type="button" class="header-search__button" value="Найти">
+                    <img src="img/svg/search.svg" alt="search" class="header-search__icon">
+                    <div class="block__input">
+                        <ul class="header-search-column">
+                            <li class="header-search-column__item">1123 в Кабины, сиденья и крышки капотов</li>
+                            <li class="header-search-column__item">1123 в Тормоза и тросики</li>
+                            <li class="header-search-column__item">1123 в Ходовая и рулевая системы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-user">
+
+                    <a href="#user-modal" class="header-user__in popup-modal-user"> <img src="img/svg/user.svg"
+                            alt="foto" class="header-user__foto">Вход | Регистрация </a>
+                    <!-- <a href="#test-modal" class="header-user__registration popup-modal-form"></a> -->
+                </div>
+                <div class="header-product">
+                    <a href="" class="header-product__like">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12">
+                            <g>
+                                <g>
+                                    <path class="like-img" fill="#737373"
+                                        d="M14 3.857c0 1.506-.842 3.106-2.502 4.755-1.386 1.377-3.083 2.524-4.263 3.245L7 12l-.235-.143c-1.18-.72-2.877-1.868-4.263-3.245C.842 6.962 0 5.363 0 3.857 0 1.73 1.83 0 4.081 0a4.23 4.23 0 0 1 1.855.42c.393.19.754.442 1.064.742.31-.3.671-.552 1.064-.742A4.23 4.23 0 0 1 9.92 0C12.169 0 14 1.73 14 3.857zm-.866 0c0-1.676-1.442-3.039-3.215-3.039-1.021 0-1.959.443-2.573 1.216L7 2.469l-.346-.435C6.04 1.26 5.102.818 4.08.818 2.308.818.866 2.181.866 3.857c0 1.289.761 2.699 2.263 4.19C4.37 9.279 5.877 10.325 7 11.025c1.123-.7 2.632-1.746 3.87-2.976 1.503-1.492 2.264-2.902 2.264-4.191z" />
+                                </g>
+                            </g>
+                        </svg></a>
+                    <a href="" class="header-product__rating">
+                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="rating-img" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14 0H12V12H14V0ZM2 1H0V12H2V1ZM6 2H4V12H6V2ZM8 4H10V12H8V4Z" fill="#737373" />
+                        </svg></a>
+                    <div class="header-basket-wrapper">
+                        <a href="" class="header-basket__lick">
+                            <img src="img/svg/basket1.svg" alt="basket" class="header-basket__img">
+                            <span class="header-basket__number">3</span>
+                        </a>
+                        Нет товаров
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="header-footer">
+        <div class="container">
+            <div class="header-footer-wrapper">
+                <div class="open-menu">
+                    <ul class="hide-nav">
+                        <li class="hide-nav__line hide-nav__line--top"></li>
+                        <li class="hide-nav__line hide-nav__line--middle"></li>
+                        <li class="hide-nav__line hide-nav__line--bottom"></li>
+                    </ul>
+                    <span class="open-menu-text">Весь каталог</span>
+                </div>
+                <div class="header-menu">
+                    <div class="header-menu-mobile">
+                        <ul class="hide-menu">
+                            <li class="hide-menu__line hide-menu__line--top"></li>
+                            <li class="hide-menu__line hide-menu__line--middle"></li>
+                            <li class="hide-menu__line hide-menu__line--bottom"></li>
+                        </ul>
+                        <span class="open-menu-text open-submenu-text ">Меню</span>
+                    </div>
+                    <div class="header-column-wrapper">
+                        <ul class="header-column">
+                            <li class="header-column-item"><a href="#" class="header-column-link"> О компании </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Сервисы </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Новости</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link"> Статьи</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Медиа</a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Вопрос ответ </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Бренды </a></li>
+                            <li class="header-column-item"><a href="#" class="header-column-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="header-stock__link">Акции</a>
+            </div>
+        </div>
+    </section>
+</div>
+    <div class="container">
+    <ul class="hide-column">
+        <li class="hide-column-item menu__list ">
+            <a href="#" class="hide-column__link hide-column__activelink">Запчасти для погрузчиков
+            </a>
+            <ul class="hide-catalog-column menu__drop menu__drop-active ">
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog1.svg"
+                            class="hide-catalog__img">Ходовая и рулевая системы</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog2.svg"
+                            class="hide-catalog__img">Тормоза и тросики</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog3.svg"
+                            class="hide-catalog__img">Шины, колеса и рулевые колесики</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog4.svg"
+                            class="hide-catalog__img">Вилы мачты и навесное оборудование</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog5.svg"
+                            class="hide-catalog__img">Кабины, сиденья и крышки капотов</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog6.svg"
+                            class="hide-catalog__img">Оборудование для складской обработки</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog7.svg"
+                            class="hide-catalog__img">Запчасти к подметальным и скребковым машинам</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog8.svg"
+                            class="hide-catalog__img">Материалы для ТО, сервиса и охраны труда</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog9.svg"
+                            class="hide-catalog__img">Электрооборудование</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog10.svg"
+                            class="hide-catalog__img">Гидравлика</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog1.svg"
+                            class="hide-catalog__img">Стартеры, системы зажигания и топливная</a></li>
+                <li class="hide-catalog-item"><a href="#" class="hide-catalog-link"><img src="img/svg/catalog12.svg"
+                            class="hide-catalog__img">Двигатель, фильтры, системы охлаждения и выхлопная </a></li>
+            </ul>
+        </li>
+        <li class="hide-column-item menu__list">
+            <a href="#" class="hide-column__link">Складское оборудование</a>
+        </li>
+    </ul>
+</div>
+    <div class="container">
+        <div class="twopage-about-company-title eleven-about-title">
+            <a href="" class="twopage-about-company__link">Главная</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Результаты поиска по коду</a>
+        </div>
+        <div class="four-catalog-wrapper">
+            <div class="accordion-menu-wrapper">
+    <ul class="accordion-menu">
+        <span class="accordion-menu-title">Категории товаров</span>
+        <li>
+            <div class="dropdownlink">Запчасти для погрузчиков
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <a href="#" class="submenuItems__li">Ходовая и рулевая системы <span class="data-number">(962)</span></a>
+                        </li>
+                        <li><a href="#"class="submenuItems__li">Тормоза и тросики <span class="data-number">(735)</span></a></li>
+                        <li><a href="#"class="submenuItems__li">Шины, колеса и рулевые <br>колесики <span
+                                    class="data-number">(1236)</span></a></li>
+                        <li><a href="#"class="submenuItems__li">Вилы, мачты и навесное<br> оборудование<span class="data-number">
+                                    (1503)</span></a>
+                        </li>
+                        <li><a href="#"class="submenuItems__li" class="data-show">Показать ещё</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink">Складское оборудование
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+
+                        <li>
+                            <a href="#"class="submenuItems__li">Ходовая и рулевая системы <span class="data-number">(962)</span></a>
+                        </li>
+                        <li><a href="#"class="submenuItems__li">Тормоза и тросики <span class="data-number">(735)</span></a></li>
+                        <li><a href="#"class="submenuItems__li">Шины, колеса и рулевые<br> колесики <span
+                                    class="data-number">(1236)</span></a></li>
+                        <li><a href="#"class="submenuItems__li">Вилы, мачты и навесное<br> оборудование<span class="data-number">
+                                    (1503)</span></a>
+                        </li>
+                        <li><a href="#" class="data-show submenuItems__li">Показать ещё</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink">Складское оборудование<span class="data-number">(12345)</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+
+                <li>
+                    <a href="#"class="submenuItems__li">Ходовая и рулевая системы <span class="data-number">(962)</span></a>
+                </li>
+                <li><a href="#"class="submenuItems__li">Тормоза и тросики <span class="data-number">(735)</span></a></li>
+                <li><a href="#"class="submenuItems__li">Шины, колеса и рулевые<br> колесики <span
+                            class="data-number">(1236)</span></a>
+                </li>
+                <li><a href="#"class="submenuItems__li">Вилы, мачты и навесное<br> оборудование<span class="data-number">
+                            (1503)</span></a>
+                </li>
+                <li><a href="#"class="submenuItems__li" class="data-show">Показать ещё</a></li>
+            </ul>
+        </li>
+    </ul>
+    </li>
+    </ul>
+    <ul class="accordion-menu">
+        <span class="accordion-menu-title">Поиск по технике</span>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Выберите тип техники
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <div class="checkbox-conteiner">
+                                <input type="checkbox" id="scales" name="scales" class="scales">
+                                <label for="scales" class="scales-label">Электротележки
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox-conteiner">
+                                <input type="checkbox" id="scales1" name="scales1" class="scales">
+                                <label for="scales1" class="scales-label">Комплектовщики
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox-conteiner">
+                                <input type="checkbox" id="scales2" name="scales2" class="scales">
+                                <label for="scales2" class="scales-label">Эл. штабелеры
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox-conteiner">
+                                <input type="checkbox" id="scales3" name="scales3" class="scales">
+                                <label for="scales3" class="scales-label">Ричтраки
+                            </div>
+                        </li>
+                        <li>
+                            <div class="checkbox-conteiner">
+                                <input type="checkbox" id="scales4" name="scales4" class="scales">
+                                <label for="scales4" class="scales-label  scales-label-last">Узкопроходники
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Выберите город
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <div class="radio-button-wrapper">
+                                <input type="radio" class="contactChoice" id="contactChoice1" name="contact"
+                                    value="email">
+                                <label class="contact-label" for="contactChoice1">Москва</label
+                                    class="contact-label">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio-button-wrapper">
+                                <input type="radio" class="contactChoice" id="contactChoice2" name="contact"
+                                    value="phone">
+                                <label class="contact-label" for="contactChoice2">Екатеринбург</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio-button-wrapper">
+                                <input type="radio" class="contactChoice" id="contactChoice3" name="contact"
+                                    value="mail">
+                                <label class="contact-label" for="contactChoice3">Ростов-на-Дону</label>
+                            </div>
+                        </li>
+                        <li><a href="#" class="data-show">Показать еще</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Цена
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <div class="sorting__form-input">
+                            <label class="sorting__form-descr min">
+                                <input class="range__input range__input-first" id="amount-area-min"
+                                    type="text" name="min-area" value="1000">
+                            </label>
+                            <label class="sorting__form-descr max">
+                                <input class="range__input" id="amount-area-max" type="text" name="max-area"
+                                    value="5000000">
+                            </label>
+                        </div>
+                        <div class="sorting__form-range range">
+                            <div id="range-area" class="range-area"></div>
+                        </div>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </li>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Выберите тип техники
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <select name="" id="four-catalog-select" class="four-catalog-select">
+                                <option value="Не выбрано">Не выбрано</option>
+                                <option value="Не выбрано">Не выбрано</option>
+                                <option value="Не выбрано">Не выбрано</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Выберите тип техники
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <select name="" id="four-catalog-select" class="four-catalog-select">
+                                <option value="Не выбрано">Не выбрано</option>
+                                <option value="Не выбрано">Не выбрано</option>
+                                <option value="Не выбрано">Не выбрано</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="dropdownlink dropdownlink-text">Выберите город
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <ul class="submenuItems">
+                <li>
+                    <ul class="">
+                        <li>
+                            <input type="text" class="four-catalog-input-city"
+                                placeholder="Начните вводить название города">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <button class="accordion-menu-use">Применить</button>
+    <a href="#" class="accordion-menu-dropped">Сбросить фильтры</a>
+</div>
+            <div class="five-catalog-content-wrapper eleven-catalog-content-wrapper">
+    <h6 class="certificate-title ten-news-title">Результаты поиска запчасти по коду 1123</h6>
+    <ul class="five-catalog-column">
+        <li class="five-catalog-column-item">1920 товаров</li>
+        <li class="five-catalog-column-item">Сортировать по:</li>
+        <li class="five-catalog-column-item"><a href="#" class="five-catalog-column__link">Рейтингу</a></li>
+        <li class="five-catalog-column-item"><a href="#" class="five-catalog-column__link">Популярности</a></li>
+        <li class="five-catalog-column-item">
+            <a href="#" class="five-catalog-column__link five-catalog-column__greylink">Цене
+                <img src="./img/svg/fivearrow.svg" alt="arrow" class="five-catalog-column__img">
+            </a>
+        </li>
+    </ul>
+    <ul class="four-catalog-column eleven-top-column">
+        <li class="four-catalog-number four-catalog-number__active">1</li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">2</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">3</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">4</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">5</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">...</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">10</a></li>
+    </ul>
+    <div  class="eleven-content-wrapper" >
+        <table>
+            <tr class="eleven-content-wrapper-nav">
+                <td class="first-size table-size-nav">
+                    Производитель
+                </td>
+                <td class="second-size table-size-nav">
+                    Aртикул
+                </td>
+                <td class="three-size table-size-nav">
+                    Наименование детали
+                </td>
+                <td class="four-size table-size-nav">
+                    Категория
+                </td>
+                <td class="five-size table-size-nav">
+                    Страница товара
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    AIRTEX
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Водяной насос
+                </td>
+                <td class="four-size table-size">
+                    Кабины, сиденья и крышки<br> капотов
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    BOSCH
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные VAG
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-bluenav">
+                <td class="first-size table-size">
+                    FRAP
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    рулевой наконечник fiat brava/bravo 95> лев
+                </td>
+                <td class="four-size table-size">
+                    Ходовая и рулевая системы
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+            <tr class="eleven-content-wrapper-nav eleven-content-wrapper-greyenav">
+                <td class="first-size table-size">
+                    MGA
+                </td>
+                <td class="second-size table-size">
+                    1123
+                </td>
+                <td class="three-size table-size">
+                    Колодки тормозные дисковые
+                </td>
+                <td class="four-size table-size">
+                    Тормоза и тросики
+                </td>
+                <td class="five-size table-size">
+                    <a href="#" class="table-size__link"> Перейти</a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <ul class="four-catalog-column eleven-bottom-column">
+        <li class="four-catalog-number four-catalog-number__active">1</li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">2</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">3</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">4</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">5</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">...</a></li>
+        <li class="four-catalog-number"><a href="#" class="four-catalog__link">10</a></li>
+    </ul>
+</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+    <section class="footer-top">
+        <div class="container">
+            <div class="footer-top-body">
+                <div class="footer-top-text">
+                    <span class="footer-top-subtitle">Возникли вопросы?</span>
+                    <h2 class="footer-top-title">Оставьте заявку</h2>
+                    <span class="footer-top-info">Мы свяжемся с Вами в ближайшее время и ответим на любые<br>
+                        интересующие Вас вопросы </span>
+                </div>
+                <form class="footer-top-form">
+                    <input type="text" class="footer-top-input footer-name-input " placeholder="Ваше имя:">
+                    <input type="text" class="footer-top-input footer-tel-input" placeholder="Ваш телефон:">
+                    <input type="submit" class="footer-submit-input" value="отправить">
+                </form>
+            </div>
+        </div>
+        <span class="footer-logo-text">Техно Простор</span>
+    </section>
+    <section class="footer-main">
+        <div class="container">
+            <div class="footer-main-body">
+                <div class="footer-wrap-maincolumn">
+                    <div class="footer-wrap-item">
+                        <h2 class="footer-wrap-title">Клиентам</h2>
+                        <div class="footer-wrap-line">
+                            <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                        </div>
+                        <ul class="footer-main-column">
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Как найти деталь</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Как сделать заказ</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Оплата</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Доставка</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гарантия и возврат</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap-item">
+                        <h2 class="footer-wrap-title">Информация</h2>
+                        <div class="footer-wrap-line">
+                            <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                        </div>
+                        <ul class="footer-main-column">
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-О компании</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Реквизиты</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Контакты</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Вакансии</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Новости</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">-Видео о компании</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap-item footer-wrap-subitem">
+                        <ul class="footer-main-column">
+                            <h2 class="footer-wrap-title">Каталог товаров</h2>
+                            <div class="footer-wrap-line footer-wrap-bigline">
+                                <img src="img/svg/blackline.svg" alt="line" class="footer-wrap-blackline">
+                            </div>
+
+
+                            <li class="footer-main-item footer-main-subitem"><a href="#" class="footer-main-link ">-
+                                    Карты ТО</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Детали двигателей</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ходовая часть</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Указатели и датчики</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Шины и диски</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Масла и СМ</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гидравлические
+                                    цилиндры</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Грузовые рампы</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Hаземные защитные
+                                    настилы и опоры для аутригеров</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ручной разбрасыватель
+                                    соли</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Подметальные навесные
+                                    приспособления</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Защита склада</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Прочее складское и
+                                    ремонтное оборудование</a></li>
+                        </ul>
+                        <ul class="footer-main-column footer-main-subcolumn">
+                            <div class="footer-wrap-line  footer-wrap-bigline"></div>
+                            <li class="footer-main-item footer-main-subitem"><a href="#" class="footer-main-link">-
+                                    Карты ТО</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Детали двигателей</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ходовая часть</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Указатели и датчики</a>
+                            </li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Шины и диски</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Масла и СМ</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Гидравлические
+                                    цилиндры</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Грузовые рампы</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Hаземные защитные
+                                    настилы и опоры для аутригеров</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Ручной разбрасыватель
+                                    соли</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Подметальные навесные
+                                    приспособления</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Защита склада</a></li>
+                            <li class="footer-main-item"><a href="#" class="footer-main-link">- Прочее складское и
+                                    ремонтное оборудование</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="data-wrapper">
+                <div class="footer-wrap-paymants">
+                    <h3 class="footer-paymants-title">Мы принимаем:</h3>
+                    <div class="footer-paymants">
+                        <img src="img/svg/paymants.svg" alt="paymats" class="footer-paymants-img">
+                    </div>
+                </div>
+                <div class="footer-wrap-social-cell">
+                    <h3 class="footer-paymants-title">Мы в социальных сетях:</h3>
+                    <div class=" footer-social-cell">
+                        <a href="telegram.com" class="footer-paymants-link"><img src="img/svg/soc1.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                        <a href="https://twitter.com/?lang=rus" class="footer-paymants-link"><img src="img/svg/soc2.svg"
+                                alt="telegram" class="footer-social-img"></a>
+                        <a href="https://www.instagram.com/?hl=rus" class="footer-paymants-link"><img
+                                src="img/svg/soc3.svg" alt="telegram" class="footer-social-img"></a>
+                        <a href="fb.com" class="footer-paymants-link"><img src="img/svg/soc4.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                        <a href="vk.com" class="footer-paymants-link"><img src="img/svg/soc5.svg" alt="telegram"
+                                class="footer-social-img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-button">
+        <div class="container">
+            <div class="footer-button-wrap">
+                <span class="footer-button-data">© «NameSite», 2019</span>
+                <a class="footer-button-info">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </section>
+</footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/slick.min.js"></script>
+   
+    <script>
+
+
+
+        // вот старт-------------------------
+        let slider = document.getElementById('range-area');
+
+        noUiSlider.create(slider, {
+            start: [20, 80],
+            connect: true,
+            range: {
+                'min': 0,
+                'max': 100
+            }
+            ,
+            slide: function (event, ui) {
+                $("#amount-area-min").val(ui.values[0]);
+                $("#amount-area-max").val(ui.values[1]);
+            }
+        });
+
+        // вот конец---------------------------
+
+    </script>
+    <script src="js/main.js"></script>
+</body>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11catalog</title>
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/nouislider.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+<body>
+
+    <!-- @import "header.html" -->
+    <!-- @import "hidemenu.html" -->
+    <div class="container">
+        <div class="twopage-about-company-title eleven-about-title">
+            <a href="" class="twopage-about-company__link">Главная</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Результаты поиска по коду</a>
+        </div>
+        <div class="four-catalog-wrapper">
+            <!-- @import "accordion-menu.html" -->
+            <!-- @import "eleven-poisk.html" -->
+        </div>
+    </div>
+
+    <!-- @import "footer.html" -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/slick.min.js"></script>
+   
+    <script>
+
+
+
+        // вот старт-------------------------
+        let slider = document.getElementById('range-area');
+
+        noUiSlider.create(slider, {
+            start: [20, 80],
+            connect: true,
+            range: {
+                'min': 0,
+                'max': 100
+            }
+            ,
+            slide: function (event, ui) {
+                $("#amount-area-min").val(ui.values[0]);
+                $("#amount-area-max").val(ui.values[1]);
+            }
+        });
+
+        // вот конец---------------------------
+
+    </script>
+    <script src="js/main.js"></script>
+</body>

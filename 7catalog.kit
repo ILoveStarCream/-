@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>7Catalog</title>
+
+
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- @import "header.html" -->
+    <!-- @import "hidemenu.html" -->
+    <div class="container">
+        <div class="twopage-about-company-title four-catalog-title seven-catalog-title">
+            <a href="" class="twopage-about-company__link">Главная</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Каталог</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Запчасти для погрузчиков</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Кабины, сиденья и крышки капотов</a>
+            <img src="./img/svg/2pagearrow.svg" alt="arrow" class="twopage-about-company__img five-page__img">
+            <a href="" class="twopage-about-company__link">Металлическая кабина для погрузчика AX/BX50</a>
+        </div>
+    </div>
+
+    <section class="slider-three">
+        <div class="container">
+            <!-- @import "seven-catalog.html" -->
+            <!-- @import "about-us.html" -->
+            <!-- @import "1page3slider.html" -->
+            
+        </div>
+    </section>
+    <!-- @import "footer.html" -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var rating = document.querySelector('.rating'),
+            ratingItem = document.querySelectorAll('.rating-item');
+
+        rating.onclick = function (e) {
+            var target = e.target;
+            if (target.classList.contains('rating-item')) {
+                removeClass(ratingItem, 'current-active')
+                target.classList.add('active', 'current-active');
+            }
+        }
+
+        rating.onmouseover = function (e) {
+            var target = e.target;
+            if (target.classList.contains('rating-item')) {
+                removeClass(ratingItem, 'active')
+                target.classList.add('active');
+                mouseOverActiveClass(ratingItem)
+            }
+        }
+        rating.onmouseout = function () {
+            addClass(ratingItem, 'active');
+            mouseOutActiveClas(ratingItem);
+        }
+
+        function removeClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                for (var j = 1; j < arguments.length; j++) {
+                    ratingItem[i].classList.remove(arguments[j]);
+                }
+            }
+        }
+        function addClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                for (var j = 1; j < arguments.length; j++) {
+                    ratingItem[i].classList.add(arguments[j]);
+                }
+            }
+        }
+
+        function mouseOverActiveClass(arr) {
+            for (var i = 0, iLen = arr.length; i < iLen; i++) {
+                if (arr[i].classList.contains('active')) {
+                    break;
+                } else {
+                    arr[i].classList.add('active');
+                }
+            }
+        }
+
+        function mouseOutActiveClas(arr) {
+            for (var i = arr.length - 1; i >= 1; i--) {
+                if (arr[i].classList.contains('current-active')) {
+                    break;
+                } else {
+                    arr[i].classList.remove('active');
+                }
+            }
+        }</script>
+    <script>
+        $(document).ready(function () {
+
+            var sync1 = $("#sync1");
+            var sync2 = $("#sync2");
+            var slidesPerPage = 3; //globaly define number of elements per page
+            var syncedSecondary = true;
+
+            sync1.owlCarousel({
+                items: 1,
+                slideSpeed: 2000,
+                nav: true,
+                autoplay: false,
+                dots: true,
+                loop: true,
+                responsiveRefreshRate: 200,
+                navText: ['<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g><g><path fill="#a7a7a7" class="arrow7page" d="M24.031 2.14A15.8 15.8 0 0 1 29.86 7.97C31.286 10.427 32 13.104 32 16c0 2.896-.714 5.573-2.14 8.031a15.8 15.8 0 0 1-5.829 5.828C21.573 31.286 18.896 32 16 32c-2.896 0-5.573-.714-8.031-2.14A15.8 15.8 0 0 1 2.14 24.03C.714 21.573 0 18.896 0 16c0-2.896.714-5.573 2.14-8.031A15.8 15.8 0 0 1 7.97 2.14C10.427.714 13.104 0 16 0c2.896 0 5.573.714 8.031 2.14zm-2.593 26.782c1.729-.74 3.218-1.74 4.468-3s2.245-2.755 2.985-4.484C29.63 19.707 30 17.895 30 16s-.37-3.708-1.11-5.438c-.739-1.729-1.734-3.218-2.984-4.468s-2.74-2.245-4.469-2.985A13.686 13.686 0 0 0 16 2c-1.896 0-3.708.37-5.438 1.11-1.729.739-3.218 1.734-4.468 2.984s-2.245 2.74-2.985 4.468A13.686 13.686 0 0 0 2 16c0 1.52.234 2.995.703 4.422a13.186 13.186 0 0 0 2 3.86 15.682 15.682 0 0 0 3.016 3.03 12.977 12.977 0 0 0 3.86 2.016c1.426.469 2.9.703 4.421.703 1.896 0 3.708-.37 5.438-1.11zM23 15c.292 0 .531.094.719.281a.955.955 0 0 1 .281.703c0 .282-.094.521-.281.72A.947.947 0 0 1 23 17H11.687l3.688 3.656c.083.104.151.219.203.344.052.125.078.25.078.375s-.026.25-.078.375c-.052.125-.12.24-.203.344a1.043 1.043 0 0 1-.906.265 1.237 1.237 0 0 1-.188-.047.555.555 0 0 1-.172-.093 2.429 2.429 0 0 0-.171-.125L8.03 16.03l5.906-6.062a.988.988 0 0 1 .72-.313c.27 0 .505.1.702.297a.979.979 0 0 1 .297.719.954.954 0 0 1-.281.703L11.75 15z"/></g></g></svg>'],
+            }).on('changed.owl.carousel', syncPosition);
+
+            sync2
+                .on('initialized.owl.carousel', function () {
+                    sync2.find(".owl-item").eq(0).addClass("current");
+                })
+                .owlCarousel({
+                    items: slidesPerPage,
+                    dots: true,
+                    nav: true,
+                    smartSpeed: 200,
+                    slideSpeed: 500,
+                    slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+                    responsiveRefreshRate: 100
+                }).on('changed.owl.carousel', syncPosition2);
+
+            function syncPosition(el) {
+                //if you set loop to false, you have to restore this next line
+                //var current = el.item.index;
+
+                //if you disable loop you have to comment this block
+                var count = el.item.count - 1;
+                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+                if (current < 0) {
+                    current = count;
+                }
+                if (current > count) {
+                    current = 0;
+                }
+
+                //end block
+
+                sync2
+                    .find(".owl-item")
+                    .removeClass("current")
+                    .eq(current)
+                    .addClass("current");
+                var onscreen = sync2.find('.owl-item.active').length - 1;
+                var start = sync2.find('.owl-item.active').first().index();
+                var end = sync2.find('.owl-item.active').last().index();
+
+                if (current > end) {
+                    sync2.data('owl.carousel').to(current, 100, true);
+                }
+                if (current < start) {
+                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
+                }
+            }
+
+            function syncPosition2(el) {
+                if (syncedSecondary) {
+                    var number = el.item.index;
+                    sync1.data('owl.carousel').to(number, 100, true);
+                }
+            }
+
+            sync2.on("click", ".owl-item", function (e) {
+                e.preventDefault();
+                var number = $(this).index();
+                sync1.data('owl.carousel').to(number, 300, true);
+            });
+        });
+    </script>
+      <script>
+        let tab = function () {
+            let tabNav = document.querySelectorAll('.tabs-nav__item'),
+                tabContent = document.querySelectorAll('.tab'),
+                tabName;
+        
+            tabNav.forEach(item => {
+                item.addEventListener('click', selectTabNav)
+            });
+        
+            function selectTabNav() {
+                tabNav.forEach(item => {
+                    item.classList.remove('is-active');
+                });
+                this.classList.add('is-active');
+                tabName = this.getAttribute('data-tab-name');
+                selectTabContent(tabName);
+            }
+        
+            function selectTabContent(tabName) {
+                tabContent.forEach(item => {
+                    item.classList.contains(tabName) ? item.classList.add('is-active') :
+                     item.classList.remove('is-active');
+                })
+            }
+        };
+        tab();
+        
+            </script>
+</body>
+
+</html>
