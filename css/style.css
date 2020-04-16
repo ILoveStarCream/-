@@ -771,6 +771,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 20px;
   width: 272px;
   display: none;
+  position: absolute;
   z-index: 10; }
   @media screen and (max-width: 414px) {
     .hide-column {
@@ -1032,6 +1033,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #232323;
   margin-bottom: 20px;
   display: block;
+  color:#656565;
   margin-left: auto;
   outline: none; }
 
@@ -1363,9 +1365,11 @@ h1, h2, h3, h4, h5, h6 {
 .first-prev {
   top: 112px;
   position: absolute;
+  cursor: pointer;
   z-index: 1; }
 
 .first-next {
+  cursor: pointer;
   top: 112px;
   position: absolute;
   z-index: 1;
@@ -1834,6 +1838,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.3s;
   transition: 0.3s; }
   .category-card-allcatalog:hover {
+    color:black;
     background: #ffe600; }
 
 .bestseller-wrapper {
